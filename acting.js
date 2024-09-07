@@ -124,57 +124,59 @@ const collegeData = {
  
  
  'nsd': [
-    { name: 'Dr. Rajeev Mehra', position: 'Theatrical Acting Professor', email: 'rajeeve.mehra@nsd.gov.in', phone: '888-777-6666' },
-    { name: 'Dr. Ananya Roy', position: 'Acting Techniques Specialist', email: 'ananya.roy@nsd.gov.in', phone: '888-777-5555' }
+    { name: 'Dr. Rohit Anand', position: 'Stage Acting Professor', email: 'rohit.anand@nsd.gov.in', phone: '888-777-6666' },
+    { name: 'Dr. Shreya Nair', position: 'Voice and Movement Specialist', email: 'shreya.nair@nsd.gov.in', phone: '888-777-5555' }
 ],
 
 'snu': [
-    { name: 'Dr. Vikram Sharma', position: 'Theatrical Acting Instructor', email: 'vikram.sharma@snu.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Priya Verma', position: 'Performing Arts Specialist', email: 'priya.verma@snu.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Manish Kapoor', position: 'Improvisation Acting Instructor', email: 'manish.kapoor@snu.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Ayesha Gupta', position: 'Physical Theatre Specialist', email: 'ayesha.gupta@snu.edu.in', phone: '888-777-5555' }
 ],
 
 'jnu': [
-    { name: 'Dr. Arjun Patel', position: 'Acting and Drama Professor', email: 'arjun.patel@jnu.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Meera Singh', position: 'Drama and Theatre Expert', email: 'meera.singh@jnu.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Anil Kumar', position: 'Drama Acting Professor', email: 'anil.kumar@jnu.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Preeti Sharma', position: 'Stagecraft and Performance Expert', email: 'preeti.sharma@jnu.ac.in', phone: '888-777-5555' }
 ],
 
 'delhiuniversity': [
-    { name: 'Dr. Suresh Rao', position: 'Theatre Arts Professor', email: 'suresh.rao@delhi.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Neha Joshi', position: 'Theatrical Performance Specialist', email: 'neha.joshi@delhi.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Kiran Desai', position: 'Drama and Theatre Professor', email: 'kiran.desai@delhi.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Swati Bansal', position: 'Acting for Theatre Specialist', email: 'swati.bansal@delhi.edu.in', phone: '888-777-5555' }
 ],
 
 'ftii': [
-    { name: 'Dr. Rahul Kumar', position: 'Acting and Direction Expert', email: 'rahul.kumar@ftii.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Aarti Mishra', position: 'Theatre Arts and Performance Specialist', email: 'aarti.mishra@ftii.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Ajay Mehta', position: 'Stage and Screen Acting Expert', email: 'ajay.mehta@ftii.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Pooja Sethi', position: 'Theatre Performance Instructor', email: 'pooja.sethi@ftii.ac.in', phone: '888-777-5555' }
 ],
+
 
 //fa
 
 
 'ftii': [
-    { name: 'Dr. Rajeev Singh', position: 'Film Acting Professor', email: 'rajeeve.singh@ftii.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Ananya Sharma', position: 'Film Acting and Direction Specialist', email: 'ananya.sharma@ftii.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Ashok Kumar', position: 'Cinematic Acting Professor', email: 'ashok.kumar@ftii.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Priya Singh', position: 'Film Direction and Acting Specialist', email: 'priya.singh@ftii.ac.in', phone: '888-777-5555' }
 ],
 
 'srishti': [
-    { name: 'Dr. Vikram Patel', position: 'Film Acting Instructor', email: 'vikram.patel@srishti.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Pooja Reddy', position: 'Performance Arts Specialist', email: 'pooja.reddy@srishti.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Nitin Verma', position: 'Cinematic Performance Instructor', email: 'nitin.verma@srishti.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Aditi Rao', position: 'Film and Performance Arts Specialist', email: 'aditi.rao@srishti.edu.in', phone: '888-777-5555' }
 ],
 
 'whistlingwoods': [
-    { name: 'Dr. Ramesh Gupta', position: 'Film Acting and Production Expert', email: 'ramesh.gupta@whistlingwoods.net', phone: '888-777-6666' },
-    { name: 'Dr. Neha Joshi', position: 'Acting Techniques Specialist', email: 'neha.joshi@whistlingwoods.net', phone: '888-777-5555' }
+    { name: 'Dr. Sameer Desai', position: 'Cinematic Acting and Production Expert', email: 'sameer.desai@whistlingwoods.net', phone: '888-777-6666' },
+    { name: 'Dr. Kavita Nair', position: 'Screen Acting Techniques Specialist', email: 'kavita.nair@whistlingwoods.net', phone: '888-777-5555' }
 ],
 
 'amity': [
-    { name: 'Dr. Rajiv Mehta', position: 'Film Acting Professor', email: 'rajiv.mehta@amity.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Sanya Kapoor', position: 'Film and Theatre Arts Specialist', email: 'sanya.kapoor@amity.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Vivek Sharma', position: 'Film Performance Arts Professor', email: 'vivek.sharma@amity.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Meenal Kapoor', position: 'Film and Theatre Acting Specialist', email: 'meenal.kapoor@amity.edu.in', phone: '888-777-5555' }
 ],
 
 'rameshwar': [
-    { name: 'Dr. Arun Sharma', position: 'Film Acting and Direction Specialist', email: 'arun.sharma@rameshwar.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Aarti Deshmukh', position: 'Film Acting Techniques Expert', email: 'aarti.deshmukh@rameshwar.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Karan Khanna', position: 'Film Acting and Direction Expert', email: 'karan.khanna@rameshwar.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Sneha Patel', position: 'Film Acting Techniques Instructor', email: 'sneha.patel@rameshwar.ac.in', phone: '888-777-5555' }
 ],
+
 
 
 //ta
@@ -182,116 +184,120 @@ const collegeData = {
 
 
 'ftii': [
-    { name: 'Dr. Rajeev Singh', position: 'Television Acting Professor', email: 'rajeeve.singh@ftii.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Ananya Sharma', position: 'Television Acting and Direction Specialist', email: 'ananya.sharma@ftii.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Nikhil Saxena', position: 'Television Acting Professor', email: 'nikhil.saxena@ftii.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Meera Shah', position: 'Television Acting and Production Specialist', email: 'meera.shah@ftii.ac.in', phone: '888-777-5555' }
 ],
 
 'srishti': [
-    { name: 'Dr. Vikram Patel', position: 'Television Acting Instructor', email: 'vikram.patel@srishti.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Pooja Reddy', position: 'Performance Arts and Television Specialist', email: 'pooja.reddy@srishti.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Anil Kapoor', position: 'Television Acting Techniques Instructor', email: 'anil.kapoor@srishti.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Sneha Verma', position: 'Television and Performing Arts Specialist', email: 'sneha.verma@srishti.edu.in', phone: '888-777-5555' }
 ],
 
 'whistlingwoods': [
-    { name: 'Dr. Ramesh Gupta', position: 'Television Acting and Production Expert', email: 'ramesh.gupta@whistlingwoods.net', phone: '888-777-6666' },
-    { name: 'Dr. Neha Joshi', position: 'Acting Techniques for Television Specialist', email: 'neha.joshi@whistlingwoods.net', phone: '888-777-5555' }
+    { name: 'Dr. Mohan Joshi', position: 'Television Acting and Screen Production Expert', email: 'mohan.joshi@whistlingwoods.net', phone: '888-777-6666' },
+    { name: 'Dr. Kavya Nair', position: 'Television Acting Techniques Specialist', email: 'kavya.nair@whistlingwoods.net', phone: '888-777-5555' }
 ],
 
 'amity': [
-    { name: 'Dr. Rajiv Mehta', position: 'Television Acting Professor', email: 'rajiv.mehta@amity.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Sanya Kapoor', position: 'Television and Theatre Arts Specialist', email: 'sanya.kapoor@amity.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Shashank Mehta', position: 'Television Acting Professor', email: 'shashank.mehta@amity.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Radhika Kapoor', position: 'Television and Stage Performance Specialist', email: 'radhika.kapoor@amity.edu.in', phone: '888-777-5555' }
 ],
 
 'rameshwar': [
-    { name: 'Dr. Arun Sharma', position: 'Television Acting and Direction Specialist', email: 'arun.sharma@rameshwar.ac.in', phone: '888-777-6666' },
-    { name: 'Dr. Aarti Deshmukh', position: 'Television Acting Techniques Expert', email: 'aarti.deshmukh@rameshwar.ac.in', phone: '888-777-5555' }
+    { name: 'Dr. Gaurav Mishra', position: 'Television Acting and Direction Expert', email: 'gaurav.mishra@rameshwar.ac.in', phone: '888-777-6666' },
+    { name: 'Dr. Shweta Rao', position: 'Television Performance Techniques Instructor', email: 'shweta.rao@rameshwar.ac.in', phone: '888-777-5555' }
 ],
+
 
 
 //va
 
 
 'nsca': [
-    { name: 'Dr. Aditi Mehta', position: 'Voice Acting Professor', email: 'aditi.mehta@nsca.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Rohit Kapoor', position: 'Voice Acting and Dubbing Specialist', email: 'rohit.kapoor@nsca.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Nisha Verma', position: 'Voice Acting Techniques Professor', email: 'nisha.verma@nsca.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Aman Roy', position: 'Voice Acting and Dubbing Expert', email: 'aman.roy@nsca.edu.in', phone: '888-777-5555' }
 ],
 
 'sva': [
-    { name: 'Dr. Emma Watson', position: 'Voice Acting Instructor', email: 'emma.watson@sva.edu', phone: '888-777-6666' },
-    { name: 'Dr. Michael Brown', position: 'Voice and Performance Arts Specialist', email: 'michael.brown@sva.edu', phone: '888-777-5555' }
+    { name: 'Dr. Sarah Patel', position: 'Voice Acting Techniques Instructor', email: 'sarah.patel@sva.edu', phone: '888-777-6666' },
+    { name: 'Dr. Ethan Gray', position: 'Voice and Performing Arts Specialist', email: 'ethan.gray@sva.edu', phone: '888-777-5555' }
 ],
 
 'bfs': [
-    { name: 'Dr. Olivia Johnson', position: 'Voice Acting and Dubbing Expert', email: 'olivia.johnson@bfs.ac.uk', phone: '888-777-6666' },
-    { name: 'Dr. James Smith', position: 'Voice Acting Techniques Specialist', email: 'james.smith@bfs.ac.uk', phone: '888-777-5555' }
+    { name: 'Dr. Isabella Singh', position: 'Voice Acting and Dubbing Techniques Expert', email: 'isabella.singh@bfs.ac.uk', phone: '888-777-6666' },
+    { name: 'Dr. Henry Thompson', position: 'Voice Acting Techniques Specialist', email: 'henry.thompson@bfs.ac.uk', phone: '888-777-5555' }
 ],
 
 'mia': [
-    { name: 'Dr. Priya Sharma', position: 'Voice Acting Professor', email: 'priya.sharma@mia.edu.in', phone: '888-777-6666' },
-    { name: 'Dr. Vikram Singh', position: 'Voice Acting and Performance Specialist', email: 'vikram.singh@mia.edu.in', phone: '888-777-5555' }
+    { name: 'Dr. Rhea Kapoor', position: 'Voice Acting Professor', email: 'rhea.kapoor@mia.edu.in', phone: '888-777-6666' },
+    { name: 'Dr. Kabir Deshmukh', position: 'Voice Acting and Performance Specialist', email: 'kabir.deshmukh@mia.edu.in', phone: '888-777-5555' }
 ],
 
 'lfa': [
-    { name: 'Dr. Sophia Lee', position: 'Voice Acting and Dubbing Specialist', email: 'sophia.lee@lfa.ac.uk', phone: '888-777-6666' },
-    { name: 'Dr. Daniel Clark', position: 'Voice Acting Techniques Expert', email: 'daniel.clark@lfa.ac.uk', phone: '888-777-5555' }
+    { name: 'Dr. Emily Carter', position: 'Voice Acting and Dubbing Expert', email: 'emily.carter@lfa.ac.uk', phone: '888-777-6666' },
+    { name: 'Dr. Lucas Martin', position: 'Voice Acting Techniques Instructor', email: 'lucas.martin@lfa.ac.uk', phone: '888-777-5555' }
 ],
+
 
 
 //ma
 
 
 'stella': [
-    { name: 'Dr. Sarah Johnson', position: 'Method Acting Professor', email: 'sarah.johnson@stellaadler.edu', phone: '888-777-6666' },
-    { name: 'Dr. Michael Green', position: 'Method Acting Techniques Specialist', email: 'michael.green@stellaadler.edu', phone: '888-777-5555' }
+    { name: 'Dr. Priya Nair', position: 'Method Acting Techniques Professor', email: 'priya.nair@stellaadler.edu', phone: '888-777-6666' },
+    { name: 'Dr. Arjun Malhotra', position: 'Method Acting Techniques Specialist', email: 'arjun.malhotra@stellaadler.edu', phone: '888-777-5555' }
 ],
 
 'lee': [
-    { name: 'Dr. Emily Davis', position: 'Method Acting Instructor', email: 'emily.davis@leestrasberg.edu', phone: '888-777-6666' },
-    { name: 'Dr. Robert Wilson', position: 'Method Acting and Performance Arts Specialist', email: 'robert.wilson@leestrasberg.edu', phone: '888-777-5555' }
+    { name: 'Dr. Rhea Kapoor', position: 'Method Acting Instructor', email: 'rhea.kapoor@leestrasberg.edu', phone: '888-777-6666' },
+    { name: 'Dr. Rajesh Mehta', position: 'Method Acting and Performance Arts Specialist', email: 'rajesh.mehta@leestrasberg.edu', phone: '888-777-5555' }
 ],
 
 'roy': [
-    { name: 'Dr. Olivia Brown', position: 'Method Acting and Theatre Professor', email: 'olivia.brown@rada.ac.uk', phone: '888-777-6666' },
-    { name: 'Dr. James Harris', position: 'Method Acting Specialist', email: 'james.harris@rada.ac.uk', phone: '888-777-5555' }
+    { name: 'Dr. Kavita Desai', position: 'Method Acting and Theatre Professor', email: 'kavita.desai@rada.ac.uk', phone: '888-777-6666' },
+    { name: 'Dr. Vikram Singh', position: 'Method Acting Specialist', email: 'vikram.singh@rada.ac.uk', phone: '888-777-5555' }
 ],
 
 'sftv': [
-    { name: 'Dr. Laura Smith', position: 'Method Acting and Film Studies Professor', email: 'laura.smith@sftv.ac.uk', phone: '888-777-6666' },
-    { name: 'Dr. Daniel Clark', position: 'Method Acting Techniques Expert', email: 'daniel.clark@sftv.ac.uk', phone: '888-777-5555' }
+    { name: 'Dr. Meera Sharma', position: 'Method Acting and Film Studies Professor', email: 'meera.sharma@sftv.ac.uk', phone: '888-777-6666' },
+    { name: 'Dr. Rahul Patel', position: 'Method Acting Techniques Expert', email: 'rahul.patel@sftv.ac.uk', phone: '888-777-5555' }
 ],
 
 'nyu': [
-    { name: 'Dr. Julia Martinez', position: 'Method Acting Professor', email: 'julia.martinez@nyu.edu', phone: '888-777-6666' },
-    { name: 'Dr. William Johnson', position: 'Method Acting and Theatre Arts Specialist', email: 'william.johnson@nyu.edu', phone: '888-777-5555' }
+    { name: 'Dr. Neha Reddy', position: 'Method Acting Professor', email: 'neha.reddy@nyu.edu', phone: '888-777-6666' },
+    { name: 'Dr. Aravind Rao', position: 'Method Acting and Theatre Arts Specialist', email: 'aravind.rao@nyu.edu', phone: '888-777-5555' }
 ],
+
 
 
 //ia
 
 
 'secondcity': [
-    { name: 'Dr. Lisa Reynolds', position: 'Improvisational Acting Professor', email: 'lisa.reynolds@secondcity.com', phone: '888-777-6666' },
-    { name: 'Dr. Kevin Mitchell', position: 'Improvisational Acting Techniques Specialist', email: 'kevin.mitchell@secondcity.com', phone: '888-777-5555' }
+    { name: 'Dr. Neha Kapoor', position: 'Improvisational Acting Professor', email: 'neha.kapoor@secondcity.com', phone: '888-777-6666' },
+    { name: 'Dr. Rohan Desai', position: 'Improvisational Acting Techniques Specialist', email: 'rohan.desai@secondcity.com', phone: '888-777-5555' }
 ],
 
 'io': [
-    { name: 'Dr. Emily Taylor', position: 'Improvisational Acting Instructor', email: 'emily.taylor@ioimprov.com', phone: '888-777-6666' },
-    { name: 'Dr. David Brown', position: 'Improvisational Acting and Performance Specialist', email: 'david.brown@ioimprov.com', phone: '888-777-5555' }
+    { name: 'Dr. Arpita Verma', position: 'Improvisational Acting Instructor', email: 'arpita.verma@ioimprov.com', phone: '888-777-6666' },
+    { name: 'Dr. Rahul Bhatt', position: 'Improvisational Acting and Performance Specialist', email: 'rahul.bhatt@ioimprov.com', phone: '888-777-5555' }
 ],
 
 'ucb': [
-    { name: 'Dr. Rachel Adams', position: 'Improvisational Acting and Comedy Professor', email: 'rachel.adams@ucbtheatre.com', phone: '888-777-6666' },
-    { name: 'Dr. Jacob Lewis', position: 'Improvisational Acting Techniques Expert', email: 'jacob.lewis@ucbtheatre.com', phone: '888-777-5555' }
+    { name: 'Dr. Pooja Malhotra', position: 'Improvisational Acting and Comedy Professor', email: 'pooja.malhotra@ucbtheatre.com', phone: '888-777-6666' },
+    { name: 'Dr. Rajeev Nair', position: 'Improvisational Acting Techniques Expert', email: 'rajeev.nair@ucbtheatre.com', phone: '888-777-5555' }
 ],
 
 'groundlings': [
-    { name: 'Dr. Samantha Clark', position: 'Improvisational Acting and Comedy Instructor', email: 'samantha.clark@groundlings.com', phone: '888-777-6666' },
-    { name: 'Dr. Andrew Scott', position: 'Improvisational Acting Techniques Specialist', email: 'andrew.scott@groundlings.com', phone: '888-777-5555' }
+    { name: 'Dr. Sunita Patel', position: 'Improvisational Acting and Comedy Instructor', email: 'sunita.patel@groundlings.com', phone: '888-777-6666' },
+    { name: 'Dr. Aman Singh', position: 'Improvisational Acting Techniques Specialist', email: 'aman.singh@groundlings.com', phone: '888-777-5555' }
 ],
 
 'delclose': [
-    { name: 'Dr. Jennifer Morgan', position: 'Improvisational Acting Professor', email: 'jennifer.morgan@delclosetheater.com', phone: '888-777-6666' },
-    { name: 'Dr. Thomas Carter', position: 'Improvisational Acting and Performance Arts Specialist', email: 'thomas.carter@delclosetheater.com', phone: '888-777-5555' }
+    { name: 'Dr. Nisha Gupta', position: 'Improvisational Acting Professor', email: 'nisha.gupta@delclosetheater.com', phone: '888-777-6666' },
+    { name: 'Dr. Abhishek Rao', position: 'Improvisational Acting and Performance Arts Specialist', email: 'abhishek.rao@delclosetheater.com', phone: '888-777-5555' }
 ],
+
 
 
 
