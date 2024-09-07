@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanities Connections</title>
+    <link rel="stylesheet" href="medicine.css">
+</head>
+<body>
+    <!-- Header with Logo and Alumni Connect -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.jpeg" alt="Career GPS Logo" class="logo">
+            <div class="logo-text">CareerGPS</div>
+        </div>
+        <h1 class="header-title">Humanities Connections</h1>
+    </header>
+
+    <!-- Field Selection Section -->
+    <section class="selection-section">
+        <label for="field-select">Select Branch:</label>
+        <select id="field-select" onchange="updateCollegeOptions()">
+            <option value="">Select Field</option>
+            <option value="h">History</option>
+            <option value="p">Philosophy</option>
+            <option value="l">Literature</option>
+            <option value="li">Linguistics</option>
+            <option value="c">Cultural Studies</option>
+            <option value="r">Religious Studies</option>
+        </select>
+    </section>
+
+    <!-- College Selection Section -->
+    <section class="selection-section">
+        <label for="college-select">Select College:</label>
+        <select id="college-select" onchange="showAlumniList()">
+            <option value="">Select College</option>
+        </select>
+    </section>
+
+    <!-- Alumni List Section -->
+    <section class="alumni-list-section" id="alumni-list">
+        <!-- Alumni Cards will be dynamically populated here -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Alumni Connect | All Rights Reserved</p>
+            <p><a href="#">Contact Us</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="humanities.js"></script>
+</body>
+</html>
