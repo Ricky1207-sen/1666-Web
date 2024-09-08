@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Counseling Seminars</title>
+    <link rel="stylesheet" href="seminars.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpeg" alt="CareerGPS">
+        </div>
+        <h1 class="title">CareerGPS Seminars</h1>
+    </header>
+
+    
+
+    <!-- Upcoming Seminars Section -->
+    <section id="seminars" class="seminars-section">
+        <h2>Upcoming Seminars</h2>
+        <div class="seminar">
+            <h3>Seminar on Career Exploitation</h3>
+            <p>Join us for a detailed discussion on how to identify and avoid career exploitation. This seminar will cover how to navigate tricky job market conditions and make informed decisions about career paths. Learn strategies to safeguard your career trajectory.</p>
+            <button class="register-btn" id="register1">Register</button>
+        </div>
+
+        <div class="seminar">
+            <h3>Seminar on Job Market Trends</h3>
+            <p>This seminar will explore the latest trends in the job market, including emerging industries, high-demand skills, and how to stay competitive in a rapidly changing world. Stay ahead with insights from industry experts.</p>
+            <button class="register-btn" id="register2">Register</button>
+        </div>
+
+        <div class="seminar">
+            <h3>Seminar on College Admissions</h3>
+            <p>Find out how to navigate the college admissions process, with tips and strategies for securing admission to top universities. We'll discuss timelines, financial aid options, and how to present a compelling application.</p>
+            <button class="register-btn" id="register3">Register</button>
+        </div>
+    </section>
+
+    <!-- Past Seminar Highlights Section -->
+    <section id="highlights" class="highlights-section">
+        <h2>Past Seminar Highlights</h2>
+        <div class="highlight">
+            <h3>Career Development in Tech</h3>
+            <p>This seminar offered insights on how to build a successful career in the technology industry. Participants learned about the latest skills needed to thrive in this field, with experts sharing their personal experiences and the importance of continuous learning in tech careers.</p>
+        </div>
+
+        <div class="highlight">
+            <h3>Networking for Career Success</h3>
+            <p>This session focused on the power of networking in career advancement. Attendees were taught how to build meaningful professional connections and leverage them for career growth, job opportunities, and mentorships.</p>
+        </div>
+
+        <div class="highlight">
+            <h3>College Admissions Strategy</h3>
+            <p>In this seminar, students were provided with strategies for acing college admissions. We covered how to create a strong application, stand out in interviews, and choose the right college based on career goals and personal aspirations.</p>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faq" class="faq-section">
+        <h2>FAQs</h2>
+        <div class="faq-item">
+            <h3>What is the best time to start career counseling?</h3>
+            <p>It’s recommended to start career counseling in high school or early in college to set a clear direction for your education and career path.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Are the seminars free?</h3>
+            <p>Yes, all our career seminars are free to attend. Simply register to secure your spot.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I attend seminars online?</h3>
+            <p>Yes, most of our seminars offer both in-person and virtual attendance options.</p>
+        </div>
+    </section>
+
+    <!-- Registration Message Section -->
+    <div id="message" class="message"></div>
+
+    <!-- JavaScript for FAQ Toggling and Registration Message -->
+    <script>
+        document.querySelectorAll('.faq-item h3').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                } else {
+                    answer.style.display = 'block';
+                }
+            });
+        });
+
+        document.querySelectorAll('.register-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const message = document.getElementById('message');
+                message.textContent = 'You have successfully registered!';
+                message.style.display = 'block';
+                setTimeout(() => message.style.display = 'none', 3000); // Hide message after 3 seconds
+            });
+        });
+    </script>
+</body>
+</html>
