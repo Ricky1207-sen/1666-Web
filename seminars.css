@@ -21,6 +21,7 @@ body {
 
 .header.logo {
     margin-right: 20px; /* Spacing between logo and title */
+    width=50px;
 }
 
 .header .title {
