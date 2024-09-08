@@ -1,0 +1,123 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.scholarship-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 50px; /* Adjust size as needed */
+}
+
+.scholarship-header h1 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #fffde7;
+}
+
+/* Expert list layout */
+.experts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    padding: 0 10px;
+}
+
+/* Expert cards with two columns */
+.expert-card {
+    display: flex;
+    background-color: #fffde7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-height: 240px;
+}
+
+.expert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image section */
+.expert-card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 2px solid #fffde7;
+}
+
+/* Text section */
+.expert-card-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.expert-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.expert-card p {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.site-footer {
+    background-color: #333;
+    color: rgb(8, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 10;
+}
+
