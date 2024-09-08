@@ -14,8 +14,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px; /* Adjust this value as needed */
-    margin: 0 auto; /* Center align the navigation */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -24,25 +24,27 @@ nav {
 }
 
 .logo-image {
-    height: 50px; /* Adjust as needed */
-    margin-right: 10px; /* Space between logo and text */
+    height: 50px;
+    margin-right: 10px;
 }
 
 .logo-text {
     font-size: 24px;
     font-weight: bold;
+    line-height: 1.2; /* Adjusts the spacing between lines */
 }
 
 .slogan {
     font-size: 14px;
+    color: #ddd;
 }
 
-/* Adjust .nav-menu as needed */
+/* Nav Menu */
 .nav-menu {
     list-style: none;
     display: flex;
     margin: 0;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .nav-menu li {
@@ -75,7 +77,7 @@ nav {
     padding: 0;
     margin: 0;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgb(90, 230, 171);
+    box-shadow: 0 4px 8px rgba(90, 230, 171, 0.6);
 }
 
 .dropdown-menu li {
@@ -212,16 +214,65 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
 }
+
 /* Dropdown Menu Icons */
 .dropdown-icon {
-    width: 20px; /* Adjust as needed */
-    height: 20px; /* Adjust as needed */
-    margin-right: 10px; /* Space between icon and text */
-    vertical-align: middle; /* Aligns the icon vertically with the text */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .dropdown-menu li {
     display: flex;
-    align-items: center; /* Vertically center items in the dropdown */
+    align-items: center;
+}
+/* Why Us Section */
+.why-us-section {
+    background-color: #d3fffe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-us-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.why-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.why-us-box {
+    background-color: #e3fdf7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.why-us-box img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.why-us-box h3 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.why-us-box p {
+    font-size: 16px;
+    color: #555;
 }
