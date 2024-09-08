@@ -19,9 +19,10 @@ body {
     position: relative; /* Ensures correct centering of title */
 }
 
-.header.logo {
-    margin-right: 20px; /* Spacing between logo and title */
-    width=50px;
+.header .logo img {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 20px; /* Space between logo and title */
 }
 
 .header .title {
@@ -122,8 +123,7 @@ h2 {
     display: none;
 }
 
-/* Existing CSS */
-
+/* Success message styling */
 .message {
     display: none;
     padding: 10px;
