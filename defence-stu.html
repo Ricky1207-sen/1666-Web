@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defence Student Connect</title>
+    <link rel="stylesheet" href="engineering.css">
+</head>
+<body>
+    <!-- Header with Logo and Alumni Connect -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.jpeg" alt="Career GPS Logo" class="logo">
+            <div class="logo-text">CareerGPS</div>
+        </div>
+        <h1 class="header-title">Defence Student Connections</h1>
+    </header>
+
+    <!-- Field Selection Section -->
+    <section class="selection-section">
+        <label for="field-select">Select Branch:</label>
+        <select id="field-select" onchange="updateCollegeOptions()">
+            <option value="">Select Field</option>
+            <option value="ms">Military Strategy and Operations</option>
+            <option value="dt">Defence Technology and Engineering</option>
+            <option value="ic">Intelligence and Counterintelligence</option>
+            <option value="ml">Military Logistics and Supply Chain Management</option>
+            <option value="di">Defence Policy and International Relations</option>
+            <option value="mm">Military Medicine and Health Services</option>
+        </select>
+    </section>
+
+    <!-- College Selection Section -->
+    <section class="selection-section">
+        <label for="college-select">Select College:</label>
+        <select id="college-select" onchange="showAlumniList()">
+            <option value="">Select College</option>
+        </select>
+    </section>
+
+    <!-- Alumni List Section -->
+    <section class="alumni-list-section" id="alumni-list">
+        <!-- Alumni Cards will be dynamically populated here -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Student Connect | All Rights Reserved</p>
+            <p><a href="#">Contact Us</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="defence-stu.js"></script>
+</body>
+</html>
