@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+/* Header Styles */
+.scholarship-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    left: 20px;
+    height: 50px; /* Adjust size as needed */
+}
+
+.scholarship-header h1 {
+    margin: 0;
+}
+
+
+.scholarship-list, .scholarship-tips, .scholarship-calendar, .faq-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.scholarship-list h2, .scholarship-tips h2, .scholarship-calendar h2, .faq-section h2 {
+    color: #333;
+}
+
+.scholarship-card {
+    background-color: #b4e5f6;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.scholarship-card:hover {
+    background-color: #82cef8;
+    border-color: #b1ffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scholarship-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.apply-btn {
+    background-color: #031074;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #794fec;
+}
+
+.scholarship-calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.scholarship-calendar table, .scholarship-calendar th, .scholarship-calendar td {
+    border: 1px solid #000000;
+}
+
+.scholarship-calendar th, .scholarship-calendar td {
+    padding: 10px;
+    text-align: left;
+}
+
+.faq-section {
+    margin-top: 40px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #000000;
+}
+
+.faq-item p {
+    margin-top: 5px;
+}
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0;
+}
